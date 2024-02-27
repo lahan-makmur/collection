@@ -1,0 +1,19 @@
+{
+  "name": "collection",
+  "version": "1.0.0",
+  "description": "listener to teltonika",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rhomadon",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "net": "^1.0.2"
+  }
+}
